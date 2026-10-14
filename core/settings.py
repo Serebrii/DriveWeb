@@ -154,3 +154,7 @@ MEDIA_URL = "/media/"
 MEDIA_ROOT = "/files/media"
 
 CSRF_TRUSTED_ORIGINS = ["https://student-drive-web.onrender.com"]
+
+LOGIN_URL = "login"
+
+LOGIN_REDIRECT_URL = "index"
